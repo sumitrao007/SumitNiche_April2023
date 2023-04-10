@@ -1,0 +1,37 @@
+			Welcome To Angular Module 12
+				  Sumit Raokhande
+
+- B.E.Electronics, KBP satara
+- M.Tech Electronics, Walchand College Sangli
+- C-Dac Wimc , Sunbeam pune
+- worked as Mobile Application developer at tivre business solution
+- worked on J2ME,Symbian,Windows Mobile,Reaserach Motion
+- Worked as Android developer at veetron 
+- Live android application prasieo,autohub,garage
+- Worked as JDE Developer of Oracle Product
+- Worked as OpenSDK developer
+- work as angular developer
+- work on google cloud & docker 
+
+
+ - we learn angular 12 module
+ - first we learn typescript
+ - duration is 55hr to 60 hrs 
+ - daily session mon to frid => avg time 1.15 min it may be vary accoring to topic 
+ - all recording will be given but that recording is only view purpose => that recording is present 3 days => after 3 days it will auto delete from cloud 
+ - all code will given => that code will be available on github repo 
+ - pre-requiruest 
+   1 knows only oops concept
+   2 basics of HTML
+   3 basics of CSS 
+   
+   fee structure => 6000
+   installment
+   1 1st installment => within 10 days 
+   2 2nd installment => after 1st installment withing 25days 
+   
+
+
+
+
+
