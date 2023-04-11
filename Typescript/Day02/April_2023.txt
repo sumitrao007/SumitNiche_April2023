@@ -1,0 +1,28 @@
+Last Lecture
+1 Introduction
+
+Today Lecture
+1 difference between Angular js vs angular 2+
+ same as it is js vs typescript
+2 what is typescript
+3 vscode overview
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
