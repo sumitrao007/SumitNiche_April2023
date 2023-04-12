@@ -1,0 +1,59 @@
+Last Lecture
+1 difference between Angular js vs angular 2+
+ same as it is js vs typescript
+	- it is objected based lang./ it is OOPS based lang
+	- mvc / MVW
+	- no effective memory mang / memory mang. effective
+	- speed & performance is degrade/ speed & performance is increase 
+	- mobile community is not support / it is support 
+2 what is typescript
+	- it follows oops concept
+	- it is superset of js 
+	- typescript = ecma script + ecma version + additional features 
+	advantages
+	1 strong static typing
+	2 compile time error find 
+	3 it supports oops 
+	disavantage
+	1 browser does not understand
+		tsc => it transcompile ur ts file to js file 
+	2 compile time is more as compared to other compiler 
+3 vscode overview
+	
+4 Simple Program
+	demo1.ts
+	console.log("Hello world")
+	console.log('Welcome to Angular 12 ')
+	
+	tsc demo1.ts 
+	node demo1.js 
+	
+	tsc demo1.ts & node demo1.js 
+	
+
+Today Lecture
+1 variable
+2 data types
+3 literals
+4 type assertions
+5 operators
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
