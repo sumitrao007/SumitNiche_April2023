@@ -1,0 +1,56 @@
+Last Lecture
+1 variable
+	var a1,a_1,a$1
+2 data types
+	number,string,boolean,any,void
+	null , undefined
+	var a:number=10;
+	console.log("a "+a);
+	console.log(` value of a ${a} `);
+	
+	var str!:string;
+	console.log(str)
+3 literals
+	var str:number|string
+	
+
+4 type assertions
+	any/Object/unknown
+	
+	var myany:any;
+	1 angle bracket
+		var temp=(<string> myany)
+	2 as syntax
+		var temp=(myany as string)
+	
+5 operators
+	airthamtic,logical,bitwise,relational,conditional,unary,ternary,assignment (==,===)
+	
+
+Today Lecture
+1 Control statement
+2 loop statement
+3 var vs let vs const
+4 functions
+5 anonymous functions
+6 fat arrow function/Arrow function 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
