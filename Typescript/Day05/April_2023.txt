@@ -1,0 +1,116 @@
+Last Lecture
+1 Control statement
+	if,if-else,switch,break,
+	if(count<10){
+	....
+	}else {
+	.....
+	}
+	var choice=2;
+	switch(choice){
+		case 1:....
+				break;
+		case 2: ....
+				break;
+		default : ...
+				break;
+	}
+2 loop statement
+	while,do-while ,for,foreach
+	var count=5;
+	while(count!=0){
+	....
+	count--;
+	
+	}
+	
+	do {
+		...
+		count--;
+		
+	}while(count!=0)
+	
+	for(var i=0;i<4;i++){
+	....
+	}
+	
+	
+3 var vs let vs const
+
+var => scope is global 
+let => within nearest block
+const => global as well as local 
+4 functions
+	function add1(){
+	...
+	}
+	
+	add1();
+	
+	function add2(a:number,b:number){
+		console.log(a+b);
+	}
+	
+	function add3():number {
+		return (8+8);
+		
+	}
+	
+	let res=add3();
+	console.log(res)
+	
+	function add3(a:number,b:number):number {
+		return (a+b);
+		
+	}
+	
+	let res=add3(5,6);
+	....
+	
+5 anonymous functions
+	let temp=function (){
+		console.log(...)
+	}
+	temp1();
+	
+	let temp2=function (a:number,b:number):number{
+		return (a+b)
+	}
+	
+let res=	temp2(5,7)
+6 fat arrow function/Arrow function 
+	let temp3=()=>{
+		console.log();
+	}
+	
+	temp3();
+	
+	let temp4=(a:number,b:number):number=>{
+		return (a+b)
+	}
+	console.log(temp4(7,3));
+
+Today Lecture
+1 optional parameter function
+2 default parameter function
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
