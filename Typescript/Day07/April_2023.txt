@@ -1,0 +1,70 @@
+Last Lecture
+1 Basic array
+	let a:number[]=[];
+	let a:number[]=[2,3,4];
+	let a=[2,3,4];
+	let a:any[]=[...];
+	let a=[2.5,'sumit',8]
+	for(let i=0;i<a.length;i++){
+	...
+	}
+	console.log(a);
+	console.log(a.join("  "));
+2 array methods 
+	- foreach
+		
+		a.forEach((myvalue,i)=>{
+		.....
+		})
+		
+	-join
+3 Rest Parameter function
+	function display(...item:number[]){
+	...
+	}
+	display(4,5,6);
+	
+4 push & pop
+	
+	let a:number[]=[];
+	a.push(4);
+	a.push(5,6,9);
+	let res=a.pop();
+	
+5 splice
+	a.splice(2,0,78);
+	a.splice(2,0,78,90,56);
+	a.splice(3,1);
+	a.splice(4,1,80,100)
+6 slice
+	let temp=a.splice(1,7);
+	
+
+Today Lecture
+1 map method 
+2 destructing/derefrence of array 
+3 Shallow Copy & deep Copy (Js Interview Question)
+4 Swapping variables without using 3rd variables (Js interview Question)
+5 Functions that return multiple values (JS interview Question) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
