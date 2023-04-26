@@ -1,0 +1,96 @@
+Last Lecture
+Additional featufres of typescript
+1 inheritance
+	single,multilevel,hirachical
+	
+2 method override
+	- it has same signature
+	- parent-child relation
+
+export class shape{
+	Myarea(){
+	...
+	}
+}
+
+circle.ts
+import {Shape} from './shape';
+
+export class Circle extends Shape {
+
+	radius:number;
+	area:number;
+	
+	constructor(r:number){
+		super();
+		this.radius=r;
+		this.area=0;
+	}
+	
+	override Myarea():void{
+		this.area=3.14*this.radius*this.radius;
+	}
+	display(){
+		....
+	}
+}
+
+import {Shape} from './shape';
+export class Rectangle extends Shape {
+		length:number;
+		breadth:number;
+		area:number;
+		constructor(l:number,b:number){
+			super();
+			this.length=l;
+			this.breadth=b;
+		}
+		
+		override Myarea(){
+			this.area=this.length*this.breadth;
+		}
+		
+		display(){
+		....
+		}
+		
+}
+
+maininheritance.ts
+import {Circle} from './circle';
+....
+
+	let circleobj=new Circle(2);
+	circleobj.Myarea();
+	circleobj.display();
+	
+	....
+
+Today Lecture
+1 interface
+	- it has pure abstract method 
+	- u can create a property
+	- but can not create object of interface but u can create a reference of that interface 
+2 composition/has a relations 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
