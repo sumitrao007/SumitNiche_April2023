@@ -1,0 +1,87 @@
+Last Lecture
+Additional featufres of typescript
+1 interface
+	- it has pure abstract method 
+	- u can create a property
+	- but can not create object of interface but u can create a reference of that interface 
+	
+	export interface Employee{
+			fname:string;4
+			lname:string;
+			fullname?:string;
+			display();
+	}
+	
+	employeedetails.ts
+	
+	export class EmployeeDetails implements Employee{
+			fname:string;
+			lname:string;
+			salary:number;
+			dept:Department;
+			
+			constructor(f:string,l:string,sal:number,role:string){
+			....
+			this.dept=new Department(role)
+			}
+			
+			display(){
+				console.log(`
+					${this.fname}
+					${this.dept.getRole()}
+				`)
+			}
+			
+	}
+	
+	let empobj=new EmployeeDetails(9,'sumit','raokhande','Devops');
+	empobj.display();
+	
+	
+	export class Department{
+		private role:string;
+		
+		
+		constructor(role:string){
+			this.role=role;
+		}
+		
+		getRole():string{
+			this.role
+		}
+		
+		setRole(role:string){
+			this.role=role;
+			
+		}
+		
+	}
+	
+	
+2 composition/has a relations 
+
+Today Lecture
+1 Angular setup
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
