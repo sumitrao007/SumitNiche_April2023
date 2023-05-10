@@ -1,0 +1,69 @@
+Last Lecture
+1 $event 
+	<button value="Doller event " (click)="onClick($event)">
+	
+	.ts file 
+	onClick(myevent:any){
+		....
+		console.log("data "+myevent.target.value)
+	}
+	
+2 template ref variable
+	
+	<input #input1 >
+	<button (click)="onClick(input1.value)">
+	
+	.ts file 
+	onClick(myinput:any){
+		console.log(myinput.value);
+		myinput.style.background="green"
+		myinput.style.color="white"
+	}
+	
+3 Real time example
+	<input #num1>
+	<input #num2>
+	<button (click)="onAddition(num1.value,num2.value)">
+	<input [value]="res">
+	
+	.ts file 
+	
+	onAddition(num1:any,num2:any){
+		let n1=num1;
+		let n2=+num2;
+		this.res=n1+n2
+	}
+
+Today Lecture
+1 change event 
+2 k/b event 
+	1 keyup
+	2 keydown
+	 - event filtering
+	 
+3 event binding without event handler
+4 simple password example
+5 Two way Binding
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+<p>eventbinding3 works!</p>
+
+<!-- syntax
+    (change)="eventhandler"
+-->
+<!-- <input #inputname type="text" (change)="onChange(inputname)" placeholder="Enter the name ">
+<br><br> -->
+
+<!-- k/b event -->
+<!-- <input type="text" placeholder="Key up event" (keyup)="onKeyUp()"> <br><br>
+
+<input type="text" placeholder="Key down event" (keydown)="onKeyDown()"> <br><br>
+
+<input type="text" (keyup.enter)="onKeyEnter()" placeholder="Enter key event"> -->
+
+
+<!-- event binding without event handler -->
+
+<button (click)="result=10+8">Addition</button> {{result}} <br><br>
+
+<input [type]="isShow?'text':'password'" placeholder="Enter the Password">&nbsp;&nbsp;&nbsp; 
+<button (click)="onShowHide()">Show/Hide</button>
+<hr>
+
+<h2>Two way Binding</h2>
+<!-- ngModel
+    - it is used for two way binding
+    - it is attribute directive
+    - u have import FormsModule
+    - in app.module.ts file => import 
+    - syntax 
+     [(ngModel)]="propertyName"
+     - u can apply any html tag 
+-->
+
+    <input type="text" placeholder="Enter the name " [(ngModel)]="name"> {{name}}
