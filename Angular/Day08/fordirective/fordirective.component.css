@@ -1,0 +1,20 @@
+ul{
+    list-style: none;
+}
+
+.highlight{
+    background-color: lightgray;
+    color: white;
+}
+
+.defaultclass{
+    color: black;
+}
+
+.pricehighlight{
+    background-color: blue;
+
+}
+.qtyHighighlight{
+    background-color: red;
+}
