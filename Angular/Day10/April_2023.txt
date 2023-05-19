@@ -1,0 +1,56 @@
+Last Lecture
+1 Switch Directive
+	<input #inputcolor>
+	<button (click)="onSend(inputcolor.value)">
+	<div [ngSwitch]="choice">
+		<div *ngSwitchCase="'red'" [style.background]="choice">
+			Your color name is {{choice}}</div>
+			
+		...
+		
+		<div *ngSwitcgDefault 
+			[style.background]="choice==''?'black':'orange'"
+			[style.color]="choice==''?'white':'black'"
+			
+			[ngStyle]="{
+				...
+			}"
+			
+		> Your color name is wrong {{choice}}
+		</div>
+	</div>
+	
+	.ts file 
+	onSend(colorname:string){
+		this.choice=colorname.toLowerCase().trim();
+	}
+
+Today Lecture
+1 Component interaction
+	pre -requiest
+		- parent-child relationship established 
+2 @Input
+3 @Output
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
