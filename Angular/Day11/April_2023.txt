@@ -1,0 +1,88 @@
+Last Lecture
+1 Component interaction
+	pre -requiest
+		- parent-child relationship established 
+2 @Input
+	- it is a decorator
+	- it is property level decorator
+	 
+	 app.component.html
+	 
+	 <button (click)="onClick()">
+	 app.component.ts
+	 onClick(){
+	 this.msg="";
+	 }
+	 
+	 <app-parent [AppMsg]="msg">
+	 
+	 
+	 parent.ts
+	 
+	 @Input() AppMsg:string=''
+	 
+	 strdata:string='';
+	 json={
+	 ...
+	 }
+	 
+	 msg:string='';
+	 onClick(){
+		this.msg="Hopes u r enjoying";
+	 }
+	 
+	 
+	 parent.html
+	 
+	 
+	 <button (click)="onClick()">
+	 
+	 <app-child1 [ParentStrData]="strdata"
+				[ParentJsonData]="json"
+				[Parentmsg]="msg"
+				[AppMSgFromParent]="AppMsg"
+		>
+	 
+	 child1.ts
+	 @Input() ParentStrData:string='';
+	 
+	 @Input() ParentJsonData:any={};
+	 @Input()Parentmsg:string='';
+	 
+	 @Input() AppMSgFromParent:string='';
+	 
+	 child.html
+	 {{ParentStrData}}
+	 {{ParentJsonData.id}}
+	 {{ParentJsonData.fname}}
+	 {{Parentmsg}}
+	 {{AppMSgFromParent}}
+	
+Today Lecture
+1 @Output
+	- send child to parent data(string,number,json,array,array of object ,any)
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
