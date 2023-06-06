@@ -1,0 +1,27 @@
+
+.mydiv{
+    background-color: green;
+    color: white;
+}
+
+.maindiv{
+    display: flex;
+}
+
+.buttondiv{
+    justify-content: center;
+    line-height: 8em;
+    margin: 10px;
+}
+.buttondiv button{
+    margin: 10px;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.childdiv{
+    margin-left: 30%;
+    border: 3px dotted blue;
+   width: 350px;
+    padding: 10px;
+}

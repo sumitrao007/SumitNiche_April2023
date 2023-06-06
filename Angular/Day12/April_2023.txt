@@ -1,0 +1,58 @@
+Last Lecture
+1 @Output
+	- send child to parent data(string,number,json,array,array of object ,any)
+	
+	app.component.html
+	<app-parent>
+	
+	parent.html
+	{{strdata}}
+	
+	table 
+	...
+	
+	<app-child2 (strDataEvent)="strdata=$event"
+			(ArrObjEvent)="arrproduct=$event"
+	>
+	
+	child2.ts
+	
+	@Output()strDataEvent=new EventEmitter();
+	@Output() ArrObjEvent=new EventEmitter();
+	
+	onSend(){
+			this.strDataEvent.emit(this.strdata);
+			this.ArrObjEvent.emit(this.arrproduct);
+	}
+	
+	
+Today Lecture
+1 @ViewChild
+	1 u can access parent html element directly on parent ts file 
+	2 u can access child property or child method in parent ts file 
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
