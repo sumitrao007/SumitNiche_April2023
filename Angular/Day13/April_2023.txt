@@ -1,0 +1,77 @@
+Last Lecture
+1 @ViewChild
+	1 u can access parent html element directly on parent ts file 
+	
+	parent.html
+	<div #mydiv >
+	 .....
+	</div>
+	
+	parent.ts
+	@ViewChild('mydiv') Mydiv!:elementRef;
+	
+	@ViewChild(ChildComponent) ChildAccess!:ChildComponent;
+	
+	export class parentComponne implment AfterViewInit{
+		ngAfterViewInit(){
+			this.Mydiv.nativeelement.className="mydiv";
+			this.Mydiv.nativeelement.style.color='white';
+		}
+		
+		
+		onPropertyAccess(){
+			this.ChildAccess.username='Sumit raokhande';
+			
+		}
+		
+		onmethodAccess(){
+			this.ChildAccess.onAlert();
+		}
+		
+	}
+	
+	
+	2 u can access child property or child method in parent ts file 
+	
+	child.ts
+	username='...';
+	
+	child.html 
+	<h2> {{username}}</h2>
+	<button (click)="onAlert()">Alert 
+	
+	child.ts
+	onAlert(){
+		alert("Welcome "+this.username)
+	}
+	
+
+Today Lecture
+1 Pipe
+	- if u want a transform a data without changing its value 
+2 inBuild Pipe
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
