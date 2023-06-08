@@ -1,0 +1,54 @@
+Last Lecture
+1  Pipe
+	- if u want a transform a data without changing its value 
+2 inBuild Pipe
+	<h2> {{strDetails | lowercase}}</h2>
+	<h2> {{strDetails | uppercase}}</h2>
+	<h2> {{strDetails | titlecase}}</h2>
+	<h2> {{strDetails | slice:1:10}}</h2>
+	<h2> {{0.025 | percent:'1.1'}}</h2>
+	<h2> {{0.25 | currency}}</h2>
+	<h2> {{0.25 | currency:'INR':'code'}}</h2>
+	<h2> {{5.6454236 | number:'1.2-3'}}</h2>
+	<h2> {{5.6458236 | number:'1.2-3'}}</h2>
+	<h2> {{5.6454236 | number:'2.2-3'}}</h2>
+	
+	<h2> {{mydate | date:'mediumDate'}}</h2>
+	<h2> {{mydate | date:'dd-MM-yyyy'}}</h2>
+	<h2> {{mydate | date:'longDate'|uppercase}}</h2>
+	<h2> {{mydate | date:'hh:mm:ss a'}}</h2>
+
+Today Lecture
+1 Custom Pipe 
+2 PipeTransform
+	- it is inertface
+3 transform
+	- it take 2 argument 
+4 Pure pipe 
+5 impure Pipe 
+6 @pipe 
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
