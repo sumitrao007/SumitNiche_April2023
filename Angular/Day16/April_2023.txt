@@ -1,0 +1,117 @@
+Last Lecture
+1 Services
+	- It is simple class 
+	- it is use for to write BL
+	- it us used for code resualbility
+	- it is used for code maintainbility
+	- it is used to connect backend server to front end server
+	- it is provide isolation from ur http end point url to component
+	
+2 Dependancy Injection
+
+	export class Courseservice{
+		private role:string[]=['..'];
+		
+		getCourse(){
+			return this.role;
+		}
+	}
+	
+	course.component.ts
+	myCourse:string[]=[];
+	constructor(private service:Courseservice){
+		
+	}
+	ngOinit(){
+		this.myCourse=this.service.getCourse();
+	}
+	
+	app.module.ts 
+	provider:[Courseservice]
+
+3 http => it is protocol 
+	- set of rules 
+4 http method 
+	1 get => get/fetch the data from backend  server 
+	2 post => to send a data from frontend server to backend server
+	3 put  => to update the particular data 
+	4 delete => to delete the particular data 
+5 http request/http response
+	http request has 2 part 
+	1 http header
+		- ip addrsss
+		- date 
+		- cors policy 
+		- http method 
+		- auth
+		- content Type 
+			- img 
+			- doc
+			- json
+	
+	2 http body 
+		- data 
+			- text=> html data 
+			- json 
+			- xml format => it is not used 
+			
+	http response  has 2 part 
+		- backend server will give response 
+	1 http header
+		- ip addrsss
+		- date 
+		- cors policy 
+		- http method 
+		- auth
+		- content Type 
+			- img 
+			- doc
+			- json
+		- status code 
+			1 2xx => 200,201 => 299 success,ok
+			2 3xx => redirection 300,301=>399
+			3 4xx => client side error => 400,401=>499
+			4 5xx => server side error => 500,501 =>599
+			
+	
+	2 http body 
+		- data 
+			- text=> html data 
+			- json 
+			- xml format => it is not used 
+Today Lecture
+1 HttpClientModule => import this module in app.module.ts 
+
+2 https://jsonplaceholder.typicode.com/posts
+
+	- it is fake service/api bcz it is not saved data into database but it gives a response of ur request 
+	
+3 @Injectable()
+4 Observable
+5 get method 
+6 post method
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
