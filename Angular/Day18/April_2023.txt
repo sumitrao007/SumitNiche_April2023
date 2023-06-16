@@ -1,0 +1,42 @@
+Last Lecture
+1 put
+2 delete
+3 errors handle
+
+Today Lecture
+1 Routing
+	- navigation from one component to another component
+	
+2 Routing steps
+	1 configure route
+	2 <router-outlet>
+	3 establish the link/navigate between the component
+3 empty path
+4 wild cart operator
+5 routerLink 
+	- It is attribute directive
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
