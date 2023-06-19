@@ -1,0 +1,45 @@
+Last Lecture
+1 Routing
+	- navigation from one component to another component
+	
+2 Routing steps
+	1 configure route
+	2 <router-outlet>
+	3 establish the link/navigate between the component
+3 empty path
+4 wild cart operator
+5 routerLink 
+	- It is attribute directive
+6 Send Parameter
+
+Today Lecture
+1 Send multiple Parameter
+2 Send Query parameter
+3 routing using navigate method
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
