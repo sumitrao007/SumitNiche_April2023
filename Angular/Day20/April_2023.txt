@@ -1,0 +1,38 @@
+Last Lecture
+1 Send multiple Parameter
+2 Send Query parameter
+3 routing using navigate method
+
+Today Lecture
+1 child routes
+2 lazy loading
+3 create custom module/feature module 
+4 create custom routing 
+5 modify the routing 
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
