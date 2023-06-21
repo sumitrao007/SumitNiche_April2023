@@ -1,0 +1,39 @@
+Last Lecture
+1 child routes
+2 lazy loading
+3 create custom module/feature module 
+4 create custom routing 
+5 modify the routing 
+ng g m user --routing 
+
+Today Lecture
+1 rxjs lib
+2 Subject
+3 BehaviouralSubject
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

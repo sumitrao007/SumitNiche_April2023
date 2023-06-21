@@ -1,0 +1,13 @@
+<p>queryparameter works!</p>
+
+<h2> First name :: {{myjson.fname}} </h2>
+<h2>Last name :: {{myjson.lname}} </h2>
+<h2>Status :: {{myjson.status}} </h2>
+<hr>
+
+<h2>Data is :: {{dataReceived}} </h2>
+
+<input #tempMsg type="text" placeholder="Enter the Message"><br><br>
+<button (click)="onSend(tempMsg.value)" >Send</button><br><br>
+
+<a routerLink="">Home</a>
