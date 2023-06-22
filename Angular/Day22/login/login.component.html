@@ -1,0 +1,7 @@
+<p>login works!</p>
+
+<label for="">Email ID:: &nbsp;&nbsp;</label>
+<input #emailid type="text" placeholder="Enter the Email id"><br><br>
+<label for="">Password:: &nbsp;&nbsp;</label>
+<input #password type="password" placeholder="Enter the Password"><br><br>
+<button (click)="onLogin(emailid.value,password.value)">Login</button>
