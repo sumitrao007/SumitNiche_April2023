@@ -1,0 +1,46 @@
+Last Lecture
+1 How to use authethication
+2 use of auth guard
+ng g g auth 
+
+
+Today Lecture
+1 Bootstrap Overview
+	- it is css freamwork
+	- to make ur application attractive
+	- it provides templates of css class 
+	- it makes ur application responsive 
+2 Bootstrap Integration
+	1 online integration
+		- CDN use 
+		- 24*7 internet is required
+	2 offline integration
+		- without internet u can use 
+3 Basic Grid System
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
