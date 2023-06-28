@@ -1,0 +1,63 @@
+Last Lecture
+1 Bootstrap Overview
+	- it is css freamwork
+	- to make ur application attractive
+	- it provides templates of css class 
+	- it makes ur application responsive 
+2 Bootstrap Integration
+	1 online integration
+		- CDN use 
+		- 24*7 internet is required
+	2 offline integration
+		- without internet u can use 
+3 Basic Grid System 
+
+
+Today Lecture
+1 template driven form
+	- we use to create a form 
+	- login,signup,f/b form 
+	- u can perform basic level validation on view side 
+2 FormControl
+	- it is angular inbuild class 
+	1 valid  => true
+	2 invalid => true 
+	3 touched => true 
+	4 pristine => true 
+	5 dirty  => true 
+	6 errors => It is a Object Internally 
+	
+	steps 
+	1 To create instance of FormControl => we have to use ngModel attribute directive without notation & use name attribute
+	2 to create template ref variable & assign your ngModel to it 
+	3 for the validation we use errors object & we have to use required attribute given by html 
+	
+3 ngForm
+4 json
+	
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
